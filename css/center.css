@@ -1,0 +1,78 @@
+.center {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* clock */
+.hours_and_minutes {
+    text-align: center;
+    font-size: 170px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+/* name */
+.name {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.name_input,
+.name_input::placeholder{
+    display: none;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1.5px solid #ffffff;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.name_text {
+    display: none;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.show {
+    display: block;
+}
+
+/* todo */
+.toDo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.toDo_form {
+    display: flex;
+    justify-content: center;
+}
+
+.toDo_input,
+.toDo_input::placeholder {
+    display: flex;
+    justify-content: center;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1.5px solid #ffffff;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.toDo_list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20%;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #ffffff;
+}
